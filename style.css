@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  font-family: Lekton;
+  font-size: 20px;
+  background:#d5d8dc;
+}
+
+header, section {
+  margin:5%;
+}
+
+#logo {
+  font-family: "Abril Fatface",cursive;
+  font-size: 3rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+nav li {
+  float:right;
+}
+
+#intro {
+  margin: 10%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #CD5C5C;
+}
+
+a {
+  display:block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CD5C5C;
+}
+
+#my-portfolio {
+
+  margin-bottom: 10%;
+  width:90%;
+}
+
+.thumbnail {
+  width: 30%;
+  display:inline-block;
+  padding: 10px;
+}
+
+.thumbnail p {
+  min-height: 100px;
+  overflow:hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+/*Contact section*/
+
+#contact {
+  background: #febfb2;
+  min-height: 200px;
+  margin: 0;
+  padding: 5%;
+  overflow:auto;
+}
+
+#contact h2 {
+  font-size: 1.5rem;
+}
+
+.about-me {
+  float:left;
+  display:inline-block;
+  width: 60%;
+}
+
+.contact-me {
+  float:right;
+  width: 30%;
+}
+.contact-me a {
+  display:inline-block;
+}
