@@ -51,6 +51,7 @@ a:hover {
 
 .thumbnail {
   width: 30%;
+  min-width: 250px;
   display:inline-block;
   padding: 10px;
 }
@@ -68,7 +69,6 @@ a:hover {
 
 #contact {
   background: #febfb2;
-  min-height: 200px;
   margin: 0;
   padding: 5%;
   overflow:auto;
@@ -90,4 +90,24 @@ a:hover {
 }
 .contact-me a {
   display:inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+  #logo { font-size:2rem; }
+  #intro {font-size: 1rem;}
+  nav ul {
+    font-size: 1rem;
+    float:none;
+  }
+  .thumbnail { min-width: 300px; }
+  #contact h2 { font-size: 1rem;}
+  .about-me {
+    float: none;
+    display:block;
+    width:auto;
+  }
+  .contact-me {
+    float: none;
+    width:auto;
+  }
 }
